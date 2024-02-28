@@ -23,6 +23,11 @@ public class ProcessesFiles {
         return object;
     }
 
+    public void test() throws IOException{
+        Bussines bussines= new Bussines();
+        bussines.saveData();
+    }
+
 
 
 }
